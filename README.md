@@ -1,6 +1,8 @@
 # ASF_LKUNet
 
-This repo holds code for ASF-LKUNet: Adjacent-Scale Fusion U-Net with Large-kernel for Medical Image Segmentation
+The code of ASF-LKUNet can be used for [ASF-LKUNet: Adjacent-Scale Fusion U-Net with Large-kernel for Medical Image Segmentation](https://www.techrxiv.org/articles/preprint/ASF-LKUNet_Adjacent-Scale_Fusion_U-Net_with_Large-kernel_for_Medical_Image_Segmentation/22794728)
+
+The NXPLHD can be used for academic research only, please do not use them for commercial purposes. If you have any problem with the use of NXPLHD, please contact: rfwang@xidian.edu.cn and weibinli@xidian.edu.cn.
 
 ### 1. Prepare data
 
@@ -20,30 +22,31 @@ This repo holds code for ASF-LKUNet: Adjacent-Scale Fusion U-Net with Large-kern
      ├── ASF_LKUNet
      │   └──...
      └── data
-         └──Synapse
-             ├── test
-             │   ├── 0.npy
-             │   ├── 1.npy
-             │   ├── ...
-             │   └── *.npy
+         └──Synapse(or ACDC)
+             └──test
+             	└──image
+                     │   ├── 0.npy
+                     │   ├── 1.npy
+                     │   ├── ...
+                     │   └── *.npy
+                 └──masks
+                     │   ├── 0.npy
+                     │   ├── 1.npy
+                     │   ├── ...
+                     │   └── *.npy
              └── train
-             │   ├── 0.npy
-             │   ├── 1.npy
-             │   ├── ...
-             │   └── *.npy
-         └──ACDC
-             ├── test
-             │   ├── 0.npy
-             │   ├── 1.npy
-             │   ├── ...
-             │   └── *.npy
-             └── train
-             │   ├── 0.npy
-             │   ├── 1.npy
-             │   ├── ...
-             │   └── *.npy
+            		└──image
+                     │   ├── 0.npy
+                     │   ├── 1.npy
+                     │   ├── ...
+                     │   └── *.npy
+                 └──masks
+                     │   ├── 0.npy
+                     │   ├── 1.npy
+                     │   ├── ...
+                     │   └── *.npy
      ```
-  
+     
      
 
 ### 2. Environment
