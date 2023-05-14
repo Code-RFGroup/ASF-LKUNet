@@ -1,6 +1,6 @@
 # ASF-LKUNet
 
-The code of ASF-LKUNet from [ASF-LKUNet: Adjacent-Scale Fusion U-Net with Large-kernel for Medical Image Segmentation](https://www.techrxiv.org/articles/preprint/ASF-LKUNet_Adjacent-Scale_Fusion_U-Net_with_Large-kernel_for_Medical_Image_Segmentation/22794728)
+The code of ASF-LKUNet is from [ASF-LKUNet: Adjacent-Scale Fusion U-Net with Large-kernel for Medical Image Segmentation](https://www.techrxiv.org/articles/preprint/ASF-LKUNet_Adjacent-Scale_Fusion_U-Net_with_Large-kernel_for_Medical_Image_Segmentation/22794728)
 
 The code of ASF-LKUNet can be used for academic research only, please do not use them for commercial purposes. If you have any problem with the code, please contact: rfwang@xidian.edu.cn or mzhaoshan@163.com.
 
