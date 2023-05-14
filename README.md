@@ -14,7 +14,7 @@ The ASF-LKUNet can be used for academic research only, please do not use them fo
 
   1. Synapse and ACDC images to the resolution 1 × 1 × 3  and 1.56 × 1.56 × 3. We normalized the CT values of in the Synapse dataset by min-max normalization to [0, 1]. The min-max values were set to -125 and 275. The ACDC dataset by z-score normalization.
 
-  2. 2.5D input:$[i-1, i, i+1]$, When $i=1$ or $i=i_{\max }$, the stack is $[1, 1, i+1]$ or $[i-1, i_{\max }, i_{\max }]$
+  2. 2.5D input is $[i-1, i, i+1]$, When $i=1$ or $i=i_{\max }$, the stack is $[1, 1, i+1]$ or $[i-1, i_{\max }, i_{\max }]$
 
   3. The dataset directory structure of the whole project is as follows:
   
